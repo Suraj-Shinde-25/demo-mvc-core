@@ -1,0 +1,124 @@
+2024-11-06 10:05:49.139 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-06 10:05:49.686 +05:30 [INF] Now listening on: https://localhost:7229
+2024-11-06 10:05:49.686 +05:30 [INF] Now listening on: http://localhost:5186
+2024-11-06 10:05:49.724 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-06 10:05:49.724 +05:30 [INF] Hosting environment: Development
+2024-11-06 10:05:49.724 +05:30 [INF] Content root path: C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF
+2024-11-06 10:05:51.401 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/ - null null
+2024-11-06 10:05:51.860 +05:30 [INF] Executing endpoint 'Crud_MVC_EF.Controllers.HomeController.Index (Crud_MVC_EF)'
+2024-11-06 10:05:52.188 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Crud_MVC_EF.Controllers.HomeController (Crud_MVC_EF).
+2024-11-06 10:05:52.208 +05:30 [INF] Executing ViewResult, running view Index.
+2024-11-06 10:05:52.480 +05:30 [INF] Executed ViewResult - view Index executed in 278.7854ms.
+2024-11-06 10:05:52.482 +05:30 [INF] Executed action Crud_MVC_EF.Controllers.HomeController.Index (Crud_MVC_EF) in 291.2043ms
+2024-11-06 10:05:52.483 +05:30 [INF] Executed endpoint 'Crud_MVC_EF.Controllers.HomeController.Index (Crud_MVC_EF)'
+2024-11-06 10:05:52.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/ - 200 null text/html; charset=utf-8 1100.154ms
+2024-11-06 10:05:52.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-06 10:05:52.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-11-06 10:05:52.515 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/Crud_MVC_EF.styles.css?v=xNDvSrpVGjF9bgtrbflU8NjamSmc-mIA7eeEyWWL17g - null null
+2024-11-06 10:05:52.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/lib/jquery/dist/jquery.min.js - null null
+2024-11-06 10:05:52.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-06 10:05:52.557 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-06 10:05:52.561 +05:30 [INF] Sending file. Request path: '/Crud_MVC_EF.styles.css'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\obj\Debug\net8.0\scopedcss\bundle\Crud_MVC_EF.styles.css'
+2024-11-06 10:05:52.561 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\wwwroot\css\site.css'
+2024-11-06 10:05:52.562 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 48.3829ms
+2024-11-06 10:05:52.562 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/Crud_MVC_EF.styles.css?v=xNDvSrpVGjF9bgtrbflU8NjamSmc-mIA7eeEyWWL17g - 200 1129 text/css 47.2292ms
+2024-11-06 10:05:52.566 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-06 10:05:52.566 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\wwwroot\js\site.js'
+2024-11-06 10:05:52.567 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 9.841ms
+2024-11-06 10:05:52.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - null null
+2024-11-06 10:05:52.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 34.8098ms
+2024-11-06 10:05:52.608 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-11-06 10:05:52.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 98.1095ms
+2024-11-06 10:05:52.821 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 null text/javascript; charset=UTF-8 254.6811ms
+2024-11-06 10:05:52.976 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-11-06 10:05:52.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 460.303ms
+2024-11-06 10:05:52.976 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-11-06 10:05:52.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 460.5406ms
+2024-11-06 10:05:53.144 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/favicon.ico - null null
+2024-11-06 10:05:53.158 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\Suraj Shinde\Crud_MVC_EF\Crud_MVC_EF\wwwroot\favicon.ico'
+2024-11-06 10:05:53.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/favicon.ico - 200 5430 image/x-icon 14.5564ms
+2024-11-06 10:06:07.260 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/User/Login - null null
+2024-11-06 10:06:07.271 +05:30 [INF] Executing endpoint 'Crud_MVC_EF.Controllers.UserController.Login (Crud_MVC_EF)'
+2024-11-06 10:06:07.273 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Crud_MVC_EF.Controllers.UserController (Crud_MVC_EF).
+2024-11-06 10:06:07.894 +05:30 [INF] Executing ViewResult, running view Login.
+2024-11-06 10:06:07.999 +05:30 [INF] Executed ViewResult - view Login executed in 106.4252ms.
+2024-11-06 10:06:08.012 +05:30 [INF] Executed action Crud_MVC_EF.Controllers.UserController.Login (Crud_MVC_EF) in 739.3216ms
+2024-11-06 10:06:08.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - null null
+2024-11-06 10:06:08.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-06 10:06:08.013 +05:30 [INF] Executed endpoint 'Crud_MVC_EF.Controllers.UserController.Login (Crud_MVC_EF)'
+2024-11-06 10:06:08.028 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 13.8505ms
+2024-11-06 10:06:08.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/User/Login - 200 null text/html; charset=utf-8 778.6221ms
+2024-11-06 10:06:08.045 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.4951ms
+2024-11-06 10:06:13.207 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7229/User/Login - application/x-www-form-urlencoded 212
+2024-11-06 10:06:13.210 +05:30 [INF] Executing endpoint 'Crud_MVC_EF.Controllers.UserController.Login (Crud_MVC_EF)'
+2024-11-06 10:06:13.258 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Crud_MVC_EF.Models.User) on controller Crud_MVC_EF.Controllers.UserController (Crud_MVC_EF).
+2024-11-06 10:06:14.405 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[@__model_Username_0='?' (Size = 50), @__model_Password_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`UserId`, `u`.`Password`, `u`.`Username`
+FROM `users` AS `u`
+WHERE (`u`.`Username` = @__model_Username_0) AND (`u`.`Password` = @__model_Password_1)
+LIMIT 1
+2024-11-06 10:06:14.473 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Username_0='?' (Size = 50), @__model_Password_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`UserId`, `u`.`Password`, `u`.`Username`
+FROM `users` AS `u`
+WHERE (`u`.`Username` = @__model_Username_0) AND (`u`.`Password` = @__model_Password_1)
+LIMIT 1
+2024-11-06 10:06:14.562 +05:30 [INF] Executing RedirectResult, redirecting to /Student.
+2024-11-06 10:06:14.562 +05:30 [INF] Executed action Crud_MVC_EF.Controllers.UserController.Login (Crud_MVC_EF) in 1303.9007ms
+2024-11-06 10:06:14.562 +05:30 [INF] Executed endpoint 'Crud_MVC_EF.Controllers.UserController.Login (Crud_MVC_EF)'
+2024-11-06 10:06:14.563 +05:30 [INF] Session started; Key:154f0617-afc8-a6a0-c02f-3d809157874d, Id:bfa6ab5a-fd63-21e7-da43-cedbbeaf2f3c
+2024-11-06 10:06:14.568 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/Student - null null
+2024-11-06 10:06:14.570 +05:30 [INF] Executing endpoint 'Crud_MVC_EF.Controllers.StudentController.Index (Crud_MVC_EF)'
+2024-11-06 10:06:14.570 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7229/User/Login - 302 0 null 1362.9055ms
+2024-11-06 10:06:14.572 +05:30 [INF] Route matched with {action = "Index", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Crud_MVC_EF.Controllers.StudentController (Crud_MVC_EF).
+2024-11-06 10:06:14.604 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`StudentId`, `s`.`CityId`, `s`.`CountryId`, `s`.`Education`, `s`.`Gender`, `s`.`StudentEmail`, `s`.`StudentName`, `s`.`StudentPhone`, `s`.`WorkStatus`
+FROM `students` AS `s`
+2024-11-06 10:06:14.619 +05:30 [INF] Executing ViewResult, running view Index.
+2024-11-06 10:06:14.629 +05:30 [INF] Executed ViewResult - view Index executed in 10.7204ms.
+2024-11-06 10:06:14.630 +05:30 [INF] Executed action Crud_MVC_EF.Controllers.StudentController.Index (Crud_MVC_EF) in 57.0685ms
+2024-11-06 10:06:14.630 +05:30 [INF] Executed endpoint 'Crud_MVC_EF.Controllers.StudentController.Index (Crud_MVC_EF)'
+2024-11-06 10:06:14.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/Student - 200 null text/html; charset=utf-8 62.5186ms
+2024-11-06 10:06:14.639 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-06 10:06:14.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - null null
+2024-11-06 10:06:14.646 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.8542ms
+2024-11-06 10:06:14.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.7864ms
+2024-11-06 10:06:21.173 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/Student/Edit_Get?StudentId=13 - null null
+2024-11-06 10:06:21.176 +05:30 [INF] Executing endpoint 'Crud_MVC_EF.Controllers.StudentController.Edit_Get (Crud_MVC_EF)'
+2024-11-06 10:06:21.183 +05:30 [INF] Route matched with {action = "Edit_Get", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit_Get(Int32) on controller Crud_MVC_EF.Controllers.StudentController (Crud_MVC_EF).
+2024-11-06 10:06:21.282 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`StudentId`, `s`.`CityId`, `s`.`CountryId`, `s`.`Education`, `s`.`Gender`, `s`.`StudentEmail`, `s`.`StudentName`, `s`.`StudentPhone`, `s`.`WorkStatus`
+FROM `students` AS `s`
+WHERE `s`.`StudentId` = @__p_0
+LIMIT 1
+2024-11-06 10:06:21.302 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CountryId`, `c`.`CountryName`
+FROM `countries` AS `c`
+2024-11-06 10:06:21.305 +05:30 [INF] ---------  Getting AllCountries  --------
+2024-11-06 10:06:21.364 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__countryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CityId`, `c`.`CityName`, `c`.`CountryId`
+FROM `cities` AS `c`
+WHERE `c`.`CountryId` = @__countryId_0
+2024-11-06 10:06:21.373 +05:30 [INF] Executing ViewResult, running view Edit_Get.
+2024-11-06 10:06:21.435 +05:30 [INF] Executed ViewResult - view Edit_Get executed in 63.1016ms.
+2024-11-06 10:06:21.436 +05:30 [INF] Executed action Crud_MVC_EF.Controllers.StudentController.Edit_Get (Crud_MVC_EF) in 252.226ms
+2024-11-06 10:06:21.436 +05:30 [INF] Executed endpoint 'Crud_MVC_EF.Controllers.StudentController.Edit_Get (Crud_MVC_EF)'
+2024-11-06 10:06:21.436 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/Student/Edit_Get?StudentId=13 - 200 null text/html; charset=utf-8 262.443ms
+2024-11-06 10:06:21.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-06 10:06:21.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - null null
+2024-11-06 10:06:21.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.925ms
+2024-11-06 10:06:21.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.8998ms
+2024-11-06 10:06:23.589 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/Student - null null
+2024-11-06 10:06:23.592 +05:30 [INF] Executing endpoint 'Crud_MVC_EF.Controllers.StudentController.Index (Crud_MVC_EF)'
+2024-11-06 10:06:23.593 +05:30 [INF] Route matched with {action = "Index", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Crud_MVC_EF.Controllers.StudentController (Crud_MVC_EF).
+2024-11-06 10:06:23.600 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`StudentId`, `s`.`CityId`, `s`.`CountryId`, `s`.`Education`, `s`.`Gender`, `s`.`StudentEmail`, `s`.`StudentName`, `s`.`StudentPhone`, `s`.`WorkStatus`
+FROM `students` AS `s`
+2024-11-06 10:06:23.601 +05:30 [INF] Executing ViewResult, running view Index.
+2024-11-06 10:06:23.603 +05:30 [INF] Executed ViewResult - view Index executed in 2.0669ms.
+2024-11-06 10:06:23.603 +05:30 [INF] Executed action Crud_MVC_EF.Controllers.StudentController.Index (Crud_MVC_EF) in 10.148ms
+2024-11-06 10:06:23.603 +05:30 [INF] Executed endpoint 'Crud_MVC_EF.Controllers.StudentController.Index (Crud_MVC_EF)'
+2024-11-06 10:06:23.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/Student - 200 null text/html; charset=utf-8 14.8765ms
+2024-11-06 10:06:23.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-06 10:06:23.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - null null
+2024-11-06 10:06:23.613 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 2.5146ms
+2024-11-06 10:06:23.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.0288ms

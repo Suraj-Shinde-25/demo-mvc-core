@@ -1,0 +1,119 @@
+﻿@model Crud_MVC_EF.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit_Post" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="StudentId" class="form-control" hidden />
+            <div class="form-group">
+                <label asp-for="StudentName" class="control-label"></label>
+                <input asp-for="StudentName" class="form-control" />
+                <span asp-validation-for="StudentName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                Male <input type="radio" asp-for="Gender" id="male" name="Gender" value="Male" />
+                Female <input type="radio" asp-for="Gender" id="female" name="Gender" value="Female" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Education" class="control-label"></label> <br />
+                <select asp-for="Education" class="form-control">
+                    <option value="">-- select --</option>
+                    <option value="BCOM">BCOM</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BTech">BTech</option>
+                    <option value="BE">BE</option>
+                    <option value="BCS">BCS</option>
+                    <option value="BA">BA</option>
+                </select>
+                <span asp-validation-for="Education" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WorkStatus" class="control-label"></label>  <br />
+                Ready to relocate <input type="checkbox" name="WorkStatus" asp-for="WorkStatus" />
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentEmail" class="control-label"></label>
+                <input asp-for="StudentEmail" class="form-control" />
+                <span asp-validation-for="StudentEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentPhone" class="control-label"></label>
+                <input asp-for="StudentPhone" class="form-control" />
+                <span asp-validation-for="StudentPhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CountryId" class="control-label"></label> <br />
+                <select asp-for="CountryId" id="Country" class="form-control" onchange="fetchCities(this.value)">
+                    <option value="">-- select --</option>
+                    @foreach (var countries in ViewBag.Countries)
+                    {
+                        <option value="@countries.Value">@countries.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="CountryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CityId" class="control-label"></label> <br />
+                <select asp-for="CityId" id="City" class="form-control">
+                    <option value="">-- select --</option>
+                    @foreach (var cities in ViewBag.Cities)
+                    {
+                        <option value="@cities.Value">@cities.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="CityId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" onclick="return updateCheck();"/>
+                @Html.ActionLink("Cancel", "Index", "Student", null, new { @class = "btn btn-secondary" })
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        function fetchCities(countryId) {
+            var citySelect = document.getElementById('City');
+            citySelect.innerHTML = '<option value="">Select a City</option>'; // Clear existing cities
+
+            if (countryId) {
+                fetch(`/Student/GetCityById?id=${countryId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        data.forEach(city => {
+                            var option = document.createElement('option');
+                            option.value = city.cityId;
+                            option.textContent = city.cityName;
+                            citySelect.appendChild(option);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching cities:', error));
+            }
+        }
+
+        function updateCheck() {
+                return confirm('Do you want to update!');
+        }
+    </script>
+}
+
+@* <script type="text/javascript">
+
+    function updateCheck() {
+        return confirm('Do you want to update!');
+    }
+</script> *@
